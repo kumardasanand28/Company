@@ -1,0 +1,6 @@
+	<jsp-config>
+		<taglib>
+			<taglib-uri>myNumberFormattingTags</taglib-uri>
+			<taglib-location>/WEB-INF/numberformatter.tld</taglib-location>
+		</taglib>
+	</jsp-config>

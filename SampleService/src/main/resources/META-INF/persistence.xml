@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="persistenceUnit"
+		transaction-type="RESOURCE_LOCAL">
+		<class> main.java.com.bean.jpa.UserJPABean</class>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://p-mysql-proxy.run.pivotal.io:3306/cf_236e3b29_1e8c_4782_9c8b_1643103c19ad" />
+			<property name="javax.persistence.jdbc.user" value="aXXHEiVfE34O8TWX" />
+			<property name="javax.persistence.jdbc.password" value="bAgiaifH5N6ztWsd" />
+
+		</properties>
+	</persistence-unit>
+</persistence>
