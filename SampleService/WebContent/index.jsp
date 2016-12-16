@@ -21,7 +21,7 @@ div.ex {
 }
 </style>
 
-<button id="verifyConnection" class="verifyConnection">Verify Connection</button>
+<button bean="verifyConnection" class="verifyConnection">Verify Connection</button>
 <script type="text/javascript">
 
 $(document).on('click', '.verifyConnection', function(event){
