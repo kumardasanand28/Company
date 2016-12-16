@@ -67,7 +67,7 @@ $( document ).ready(function() {
 
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<span class="lead">List of Users </span>
+			<span class="lead">List of Userssss </span>
 		</div>
 		<div class="tablecontainer">
 		<table class="table" id="result">
