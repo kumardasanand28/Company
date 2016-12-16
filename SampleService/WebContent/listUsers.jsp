@@ -9,7 +9,7 @@
 <link src="css/app.css"  rel="stylesheet"></link>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+<title>List Of Users Registered</title>
 </head>
 
 
@@ -54,6 +54,15 @@ $( document ).ready(function() {
 });
 </script>
 
+	<script type="text/javascript">
+		$(document).on('click', '.action', function() {
+			var id = $(this).attr('id');
+			var name = $(this).attr('name');
+			if (id = 'editUser') {
+				window.location.href = '/SampleWebApp?name='+name; 
+			}
+		});
+	</script>
 
 
 	<div class="panel panel-default">
